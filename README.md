@@ -39,7 +39,7 @@ To enable Virtual Machine Platform, open PowerShell as Administrator and run:
 ```powershell
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
-Then restart your computer.
+Then restart your computer. [source of info here](https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-3---enable-virtual-machine-feature)
 
 # 2025-09-01
 
