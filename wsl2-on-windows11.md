@@ -11,7 +11,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 2. Enable GPU Support
 
-(StackOvervlow Answer)[https://stackoverflow.com/questions/75118992/docker-error-response-from-daemon-could-not-select-device-driver-with-capab]
+[StackOvervlow Answer](https://stackoverflow.com/questions/75118992/docker-error-response-from-daemon-could-not-select-device-driver-with-capab)
 
 ```sh
 curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey |sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
